@@ -55,7 +55,7 @@ onSubmit:handleSubmit
             <h4 className=' fw-bold text-white text-center'>Welcome to Fikra website</h4>
             <img src={login} className='w-100 registerlogo bg-white' alt="" />
               <div className="d-flex gap-2 justify-content-center align-items-center">
-                <p className='mt-3 text-white'>If you don't have an account</p>
+                <p className='mt-3 logp text-white'>If you don't have an account</p>
                 <Link to='/register'>
                 <button className='btn px-3 btn-light'>Sign up</button>
                 </Link>

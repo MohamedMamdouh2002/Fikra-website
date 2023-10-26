@@ -96,3 +96,17 @@
 .point{
   cursor: pointer;
 }
+
+@media (max-width:500px) {
+ .regrow{
+  display: flex ;
+  /* flex-direction: column-reverse; */
+ }
+ .regLeft img{
+   display: none;
+  }
+  .logp{
+    font-size: 13px;
+  }
+
+}

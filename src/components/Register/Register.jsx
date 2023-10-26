@@ -54,14 +54,14 @@ onSubmit:handleSubmit
   <Toaster/>
   <div className="register container-fluid d-flex  justify-content-center align-items-center " >
   <div className="d-flex justify-content-center align-items-center ">
-      <div className="row w-100 regLeft  rounded-end-4  ">
+      <div className="row w-100 regLeft  regrow rounded-end-4  ">
         
-          <div className="col-md-5 p-4 regLeft  ">
+          <div className="col-md-5 p-2 regLeft  ">
             <div className="  ">
-            <h2 className=' fw-bold text-white text-center'>Welcome to Fikra website</h2>
+            <h3 className=' fw-bold text-white text-center'>Welcome to Fikra website</h3>
             <img src={registerlogo} className='w-100 registerlogo' alt="" />
               <div className="d-flex gap-2 justify-content-center align-items-center">
-                <p className='mt-3 text-white'>If you have an account</p>
+                <p className='mt-2 text-white'>If you have an account</p>
                 <Link to='/login'>
                 <button className='btn px-3 btn-light'>Login</button>
                 </Link>              </div>

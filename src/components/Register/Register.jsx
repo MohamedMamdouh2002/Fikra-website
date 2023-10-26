@@ -140,7 +140,7 @@ onSubmit:handleSubmit
                   <div className="">
 
                   <label htmlFor="password">Password</label>
-                  <input type="text" 
+                  <input type="password" 
                   id='password'
                   name='password'
                   className='form-control'

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+
+}
+.network{
+  position: fixed;
+  bottom:  30px;
+  left:  30px;
+  box-shadow:  rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+  background-color:aliceblue;
+  padding: 30px;
+  
+  }
+
+  .mainColor1{
+
+    background-color: #8B417D;
+  }
+
+  .Color1{
+
+    color: #8B417D;
+  }
+  .mainColor{
+    background-color: #8B417D;
+    min-height:100vh
+  }
+  .register{
+    background-color: #8B417D;
+    height: 100vh;
+  }
+  .regLeft{
+    background-color: #AB5B91;
+  }
+  .regRight{
+    background-color: rgb(255, 255, 255);
+  }
+  .registerBtn{
+    background-color: #AB5B91;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding:10px 0;
+  }
+  .textarea{
+    resize:none;
+    height: 200px;
+  }
+  .note{
+    width: 500px  ;
+   
+  
+    /* height: 250px; */
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    /* border-radius: 20px; */
+    /* border: 2px solid ; */
+    padding: 20px;
+    background-color:#f1d3d3;
+  }
+  .content{
+    max-width:500px; 
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .pen{
+    position: relative;
+    animation-name: pen1;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pen1{
+    0%{
+       bottom: -5px;
+    }
+   50%{
+    bottom: 0;
+   }
+    100%{
+        bottom: 5px;
+    }
+  
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(149, 13, 161, 0.4);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #AB5B91;
+}
+.point{
+  cursor: pointer;
+}
